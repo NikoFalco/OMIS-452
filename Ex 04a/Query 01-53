@@ -3,3 +3,7 @@ SELECT ProjectID, ProjectName, Department, MaxHours,
 StartDate, EndDate
 FROM PROJECT;
 
+/* *** SQL-Query-CH03-02 Niko and Kenny*** */
+SELECT *
+FROM PROJECT;
+
