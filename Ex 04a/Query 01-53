@@ -172,3 +172,8 @@ SELECT ProjectID, ProjectName, MaxHours,
 (24.50 * MaxHours) AS MaxProjectCost
 FROM PROJECT;
 
+/* *** SQL-Query-CH03-36 Niko and Kenny*** */
+SELECT Department, Count(*) AS NumberOfEmployees
+FROM EMPLOYEE
+GROUP BY Department;
+
