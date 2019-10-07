@@ -109,3 +109,8 @@ SELECT *
 FROM EMPLOYEE
 WHERE OfficePhone LIKE '360-287-88 ';
 
+/* *** SQL-Query-CH03-23 Niko and Kenny*** */
+SELECT *
+FROM EMPLOYEE
+WHERE OfficePhone LIKE '360-287-88%';
+
