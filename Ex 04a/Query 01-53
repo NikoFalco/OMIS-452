@@ -158,3 +158,7 @@ MAX(MaxHours) AS MaximumMaxHours
 FROM PROJECT
 WHERE ProjectID <= 1200;
 
+/* *** SQL-Query-CH03-33 Niko and Kenny*** */
+SELECT ProjectName, COUNT(*)
+FROM PROJECT;
+
