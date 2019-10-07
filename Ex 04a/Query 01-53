@@ -177,3 +177,9 @@ SELECT Department, Count(*) AS NumberOfEmployees
 FROM EMPLOYEE
 GROUP BY Department;
 
+/* *** SQL-Query-CH03-37 Niko and Kenny*** */
+SELECT Department, Count(*) AS NumberOfEmployees
+FROM EMPLOYEE
+GROUP BY Department
+HAVING COUNT(*) > 1;
+
