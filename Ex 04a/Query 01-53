@@ -243,3 +243,10 @@ SELECT FirstName, LastName, ProjectID, HoursWorked
 FROM EMPLOYEE, ASSIGNMENT
 WHERE EMPLOYEE.EmployeeNumber = ASSIGNMENT.EmployeeNumber;
 
+/* *** SQL-Query-CH03-47 Niko and Kenny*** */
+SELECT FirstName, LastName, ProjectID, HoursWorked
+FROM EMPLOYEE, ASSIGNMENT
+WHERE EMPLOYEE.EmployeeNumber = ASSIGNMENT.
+EmployeeNumber
+ORDER BY EMPLOYEE.EmployeeNumber, ProjectID;
+
