@@ -162,3 +162,8 @@ WHERE ProjectID <= 1200;
 SELECT ProjectName, COUNT(*)
 FROM PROJECT;
 
+/* *** SQL-Query-CH03-34 Niko and Kenny*** */
+SELECT *
+FROM PROJECT
+WHERE MaxHours > AVG(MaxHours);
+
